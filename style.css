@@ -488,16 +488,8 @@ footer a:hover {
     line-height: 1.6;
   }
 
-  .imagen-decorativa {
-    width: 80%; /* Más grande y centrada */
-    height: 250px;
-    margin-top: 20px;
-    border-radius: 10px;
-  }
+
 }
-
-
-
 
 
 
@@ -511,3 +503,4 @@ section.visible, header.visible, footer.visible {
   opacity: 1;
   transform: translateY(0);
 }
+
