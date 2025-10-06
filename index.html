@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ministerio de Ecosia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="./imagenes/ecosia.png" alt="Logo Ministerio de Ecosia">
+    </div>
+    <nav id="nav">
+      <ul>
+        <li><a href="#contenido">Inicio</a></li>
+        <li><a href="#identidad">Historia</a></li>
+        <li><a href="#footer">Contacto</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+  </header>
+
+  <section class="contenido" id="contenido">
+    <div class="texto">
+      <h1>Árbol de Energía</h1>
+      <div class="linea-degradada"></div>
+      <p>
+        Cada generación recuerda el origen del Árbol de Energía, concebido por manos humanas cuando la Tierra enfrentaba escasez de recursos y desconexión entre las personas. Los primeros científicos y artistas del valle combinaron genética, tecnología y diseño simbólico para dar vida a un árbol capaz de absorber la energía de la interacción humana. Su primer brote no nació solo del suelo, sino de la intención colectiva de quienes imaginaron un vínculo entre naturaleza y comunidad.
+      </p>
+
+      <p>
+       Con los años, el Árbol se convirtió en un faro del valle: un punto donde la colaboración y la creatividad se entrelazan. Cada año, durante el Festival, se celebra ese origen. Al iniciar el día, luces y partículas de energía recorren sus ramas artificiales, anunciando que el Árbol se prepara para recibir la vibración de todos los presentes.
+      </p>
+
+      <p>
+        El Festival es un acto de participación consciente. Los visitantes reciben cintas de colores, semillas simbólicas de historias y deseos, y las utilizan para crear lazos físicos y emocionales que alimentan al Árbol. Cada nudo, cada palabra compartida, representa un vínculo humano transformado en energía viva.
+      </p>
+
+      <p>
+        A lo largo del día, el Árbol se cubre de cintas y recuerdos, como si la comunidad misma tejiera su energía alrededor del tronco. Cuando cae la noche, el Árbol brilla con un resplandor intenso: es la prueba tangible de que la acción colectiva puede crear vida, transformar espacios y renovar la conexión entre humanos, tecnología y naturaleza.
+      </p>
+
+      
+    </div>
+
+    <!-- Imagen decorativa a la derecha -->
+ 
+    <div class="imagen-decorativa">
+        <img src="./imagenes/arbol.png" alt="arbol">
+    </div>
+  </section>
+ 
+<section class="seccion-imagen-central" id="identidad">
+  <canvas id="stars"></canvas>
+  <div class="imagen-central">
+    <img src="./imagenes/arbol-removebg-preview.png" alt="Imagen central del Festival">
+    <img src="./imagenes/flor.png" alt="Icono 1" class="img-posicion pos1">
+    <img src="./imagenes/flor.png" alt="Icono 2" class="img-posicion pos2">
+    <img src="./imagenes/flor.png" alt="Icono 3" class="img-posicion pos3">
+    <!-- Modal 1 -->
+<div class="card-modal" id="card1">
+  <div class="card-contenido">
+    <img src="./imagenes/Sticker huevo.png" alt="Detalle 1">
+    <div class="texto-card">
+      <h2>Capsula de Energía</h2>
+      <p>Esta Capsula sirve como energía transportable.</p>
+    </div>
+    <span class="cerrar">✖</span>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="card-modal" id="card2">
+  <div class="card-contenido">
+    <img src="./imagenes/PulseraNexora@4x.png" alt="Detalle 2">
+    <div class="texto-card">
+      <h2>Pulsera Nexora</h2>
+      <p>Simboliza los lazos humanos y la energía compartida que sostiene al árbol de Ecosia.</p>
+    </div>
+    <span class="cerrar">✖</span>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="card-modal" id="card3">
+  <div class="card-contenido">
+    <img src="./imagenes/InfusionAlaume@4x.png" alt="Detalle 3">
+    <div class="texto-card">
+      <h2>Infusion Alaume</h2>
+      <p>Bebida creada por petalos del Arbol, aumenta la interacción humana.</p>
+    </div>
+    <span class="cerrar">✖</span>
+  </div>
+</div>
+
+  
+  </div>
+</section>
+
+
+<section class="seccion-evento">
+  <div class="contenido-evento">
+    <img src="./imagenes/nexora.png" alt="Festival Ecosia" class="imagen-evento">
+    <p class="texto-evento">
+      El próximo Festival del Árbol de Energía se celebrará el <strong>16 de noviembre</strong>.  
+      Un día donde la comunidad se reúne para renovar la conexión entre la tierra, la energía y las voces humanas.
+    </p>
+    <div class="contador">
+      <h2>Faltan:</h2>
+      <div id="contador-tiempo" class="contador-tiempo">
+        <span id="horas">00</span> :
+        <span id="minutos">00</span> :
+        <span id="segundos">00</span>
+      </div>
+      
+    </div>
+    <div class="video-evento">
+      <video controls width="100%">
+        <source src="./imagenes/videito.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+      </video>
+    </div>
+  </div>
+</section>
+
+
+  <footer id="footer">
+    <p>Ministerio de Ecosia © 2025</p>
+    <p>
+      Seguinos en:
+      <a href="http://www.tiktok.com/@juliansolano_ecosia">Tik Tok</a> |
+      <a href="https://www.instagram.com/nexora.festival?igsh=MXhibzZoaXZjMjJ2aw==">Instagram</a>
+    </p>
+  </footer>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
