@@ -423,6 +423,14 @@ footer a:hover {
   text-decoration: underline;
 }
 
+
+
+
+
+
+
+
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   nav {
@@ -462,6 +470,31 @@ footer a:hover {
 
 
 
+/* Ajustes responsive para la primera sección */
+@media (max-width: 900px) {
+  .contenido {
+    flex-direction: column; /* Texto e imagen uno debajo del otro */
+    padding: 40px 30px; /* Menos espacio lateral */
+    text-align: center; /* Centra el texto */
+  }
+
+  .texto {
+    width: 100%; /* Usa todo el ancho disponible */
+    padding: 0; /* Sin margen lateral */
+  }
+
+  .texto p {
+    font-size: 16px; /* Texto más legible en móvil */
+    line-height: 1.6;
+  }
+
+  .imagen-decorativa {
+    width: 80%; /* Más grande y centrada */
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+}
 
 
 
